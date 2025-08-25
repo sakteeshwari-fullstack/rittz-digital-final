@@ -36,7 +36,7 @@ export const metadata = {
   title: "Top Website/AI software development services company in chennai",
   description: "We craft innovative, custom website and AI software solutions. We are the top development company in Chennai to elevate your brand.",
   icons: {
-    icon: "/assets/favicon.ico", // Make sure favicon.ico exists in /public
+    icon: "/assets/favicon.ico",
   },
 };
 
