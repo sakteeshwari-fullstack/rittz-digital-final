@@ -34,7 +34,7 @@ export default function Header() {
             </span>
           </button>
 
-          <a
+          {/* <a
             href="https://nocodenest.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
@@ -44,10 +44,10 @@ export default function Header() {
               className="absolute bottom-0 left-0 w-0 h-0 bg-emerald-600 rounded-full transition-all duration-300 ease-out group-hover:w-[60rem] group-hover:h-[60rem]"
               style={{ transform: "translate(-50%, 50%)" }}
             ></span>
-            {/* <span className="relative z-10 transition-colors duration-200 font-semibold group-hover:text-white">
+            <span className="relative z-10 transition-colors duration-200 font-semibold group-hover:text-white">
               NoCodeNest
-            </span> */}
-          </a>
+            </span>
+          </a> */}
 
           <span className="text-sm hidden sm:block sm:text-base md:text-lg font-semibold text-black">
             Menu
