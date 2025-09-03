@@ -257,7 +257,7 @@ bottomImages.forEach((img, i) => {
 
       <div
         ref={cubeRef}
-        className="relative w-[17rem] sm:w-[70rem] h-[30rem] sm:mr-[3rem] -mr-5 sm:-mr-0  rounded-[40px] transform-style-preserve-3d "
+        className="relative w-[17rem] sm:w-[70rem] h-[30rem] sm:mr-[3rem] -mr-5 rounded-[40px] transform-style-preserve-3d "
         style={{ transformStyle: "preserve-3d" }}
       >
         

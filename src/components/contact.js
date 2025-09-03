@@ -228,7 +228,7 @@ export default function Contact({ onClose }) {
               <img src="/assets/Group 1000001209.svg" alt="Phone" />
               <div>
                 <p className="text-pink-500 font-semibold">Contact Number</p>
-                <p className="font-bold text-sm md:text-base">+91 - 9841057742</p>
+                <p className="font-bold text-sm md:text-base">+917418333093</p>
               </div>
             </div>
           </div>
