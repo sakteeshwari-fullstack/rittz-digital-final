@@ -226,32 +226,35 @@ const AIServicesSection = () => {
         <div className="relative mb-10">
           <div className="grid grid-cols-1 lg:grid-cols-16 gap-3 items-center">
             {/* Left Content */}
-              <div className="col-span-1 lg:col-span-8 flex ml-9 flex-col gap-1">
-                <h1
-                  ref={titleRef}
-                  className="text-4xl md:text-5xl lg:text-[3rem] font-bold leading-tight text-gray-900"
-                >
-                  What We Offer
-                </h1>
+            <div className="col-span-1 lg:col-span-8 flex ml-9 flex-col gap-1">
+              <h1
+                ref={titleRef}
+                className="text-4xl md:text-5xl lg:text-[3rem] font-bold leading-tight text-gray-900"
+              >
+                What We Offer
+              </h1>
 
-                <p
-                  ref={subtitleRef}
-                  className="text-xl md:text-2xl lg:text-[2rem] font-semibold leading-tight 
-             bg-gradient-to-r from-orange-500 via-pink-500 to-purple-600 
+              <p
+                ref={subtitleRef}
+                className="text-xl md:text-2xl lg:text-[2rem] font-semibold leading-tight 
+             bg-[linear-gradient(to_right,
+             theme(colors.orange.500)_10%,
+             theme(colors.pink.500)_50%,
+             theme(colors.purple.600)_100%)]
              bg-clip-text text-transparent whitespace-nowrap"
-                >
-                  "AI for Everyday Business"
-                </p>
-              </div>
+              >
+                "AI for Everyday Business"
+              </p>
+            </div>
 
             {/* Center Image */}
             <div className="absolute -top-33 sm:right-20 lg:right-105">
-                <img
-                  src="/assets/glass.png"
-                  alt="AI Illustration"
-                  className="w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 lg:w-80 lg:h-80 object-contain"
-                />
-              </div>
+              <img
+                src="/assets/glass.png"
+                alt="AI Illustration"
+                className="w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 lg:w-80 lg:h-80 object-contain"
+              />
+            </div>
             {/* Right Content */}
             <div className="col-span-1 lg:col-span-8 flex flex-col gap-6 max-w-lg ml-[4rem] pt-18">
               <p
