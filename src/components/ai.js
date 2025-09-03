@@ -245,7 +245,7 @@ const AIServicesSection = () => {
               </div>
 
             {/* Center Image */}
-            <div className="absolute -top-33 right-105">
+            <div className="absolute -top-33 sm:right-20 lg:right-105">
                 <img
                   src="/assets/glass.png"
                   alt="AI Illustration"
